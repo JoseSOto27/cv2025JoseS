@@ -182,3 +182,39 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades-lista li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+.idiomas-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.idiomas-lista li {
+    font-size: 1.1rem;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+.boton-descarga {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton-descarga:hover {
+    background-color: #45a049;
+}
